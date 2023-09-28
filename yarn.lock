@@ -1412,7 +1412,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.10.0
     "@typescript-eslint/parser": ^5.10.0
     autoprefixer: ^10.4.2
-    countrykit: ^0.0.1
+    countrykit: "file:../countrykit"
     eslint: ^8.10.0
     eslint-config-prettier: ^8.1.0
     eslint-plugin-vue: ^9.0.0
@@ -1424,10 +1424,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"countrykit@npm:^0.0.1":
-  version: 0.0.1
-  resolution: "countrykit@npm:0.0.1"
-  checksum: 81b30ac7ffc8ff20636a0316cb70c9adb4b0fb7b71d7c77de8a0c63e1d0477cb72699f437fbd2dcf835e64fb5742c8213776e79417a2e35ddd511ce53c4edadb
+"countrykit@file:../countrykit::locator=countrykit-demo%40workspace%3A.":
+  version: 0.0.2
+  resolution: "countrykit@file:../countrykit#../countrykit::hash=8bab15&locator=countrykit-demo%40workspace%3A."
+  checksum: 1b09725eebb6bc4942f71b540f1ed58f52891d23a0237a04aca27bc0913abba865c738ddf9a815427196b331ff126e3333a4ab770e957c89b3f13e72f113b79d
   languageName: node
   linkType: hard
 
